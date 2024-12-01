@@ -81,10 +81,3 @@ Contributions are welcome! Feel free to:
 
 
 
----
-
-## 📧 Contact  
-For queries or feedback, reach out at:  
-- Email: yourname@example.com  
-- GitHub: [yourusername](https://github.com/yourusername)  
-```
