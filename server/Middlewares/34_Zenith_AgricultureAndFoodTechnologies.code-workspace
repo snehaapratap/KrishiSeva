@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"name": "34_Zenith_AgricultureAndFoodTechnologies",
+		"path": "../.."
+	},
+	{
+		"name": "Modelserver",
+		"path": "../../../x/Modelserver"
+	},
+	{
+		"name": "Modelclient",
+		"path": "../../../x/Modelclient"
+	}
+],
+  "settings": {}
+}

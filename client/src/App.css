@@ -1,0 +1,152 @@
+/* Admin Layout Styles */
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.admin-main-content {
+  flex: 1;
+  margin-top: 80px;
+  min-height: calc(100vh - 80px);
+  padding: 2rem;
+  background-color: #f9fafb;
+  position: relative;
+}
+
+.admin-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  padding: 0 2.5rem;
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Emergency SOS Button positioning */
+.emergency-sos {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 50;
+}
+
+/* Content wrapper for admin pages */
+.admin-page-content {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Navbar specific styles */
+.nav-brand {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #047857;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem;
+  margin-right: 3rem;
+  transition: all 0.3s ease;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #047857, #059669);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-brand:hover {
+  transform: translateY(-1px);
+  background: linear-gradient(135deg, #059669, #047857);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  padding: 0.875rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.nav-link-active {
+  background: linear-gradient(145deg, #ecfdf5, #d1fae5);
+  color: #047857;
+  box-shadow: 0 2px 4px rgba(4, 120, 87, 0.1);
+}
+
+.nav-link-active:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(4, 120, 87, 0.15);
+}
+
+.nav-logout {
+  padding: 0.875rem 1.5rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid #fee2e2;
+  background-color: white;
+  color: #dc2626;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1rem;
+}
+
+.nav-logout:hover {
+  background-color: #fee2e2;
+  color: #dc2626;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(220, 38, 38, 0.1);
+}
+
+/* Navigation menu container */
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+
+/* Icon styles */
+.nav-icon {
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover .nav-icon {
+  transform: scale(1.1);
+}
+
+/* Active link icon */
+.nav-link-active .nav-icon {
+  color: #047857;
+}
+
+/* Navbar container */
+.navbar-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

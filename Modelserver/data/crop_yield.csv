@@ -1,0 +1,11 @@
+Crop,Season,State,Area,Annual_Rainfall,Yield
+Rice,Kharif,Karnataka,100,1200,3000
+Wheat,Rabi,Punjab,150,800,4500
+Maize,Kharif,Maharashtra,80,1100,2800
+Cotton,Kharif,Gujarat,120,900,1500
+Sugarcane,Annual,Uttar Pradesh,200,1000,70000
+Potato,Rabi,West Bengal,60,1500,25000
+Tomato,Rabi,Maharashtra,40,800,35000
+Onion,Rabi,Maharashtra,70,700,20000
+Soybean,Kharif,Madhya Pradesh,90,1100,1800
+Groundnut,Kharif,Gujarat,85,850,1600 
